@@ -33,7 +33,7 @@ def train(
         learning_rate: float = 3e-4,
         cutoff_len: int = 256,
         val_set_size: int = 2000,
-        eval_steps: int = 200,
+        eval_steps: int = 100,
         eval_save_times: int = 5,
         # lora hyperparams
         lora_r: int = 8,
